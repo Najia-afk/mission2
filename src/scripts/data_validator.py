@@ -1,6 +1,10 @@
 import pandas as pd
 import numpy as np
 
+# Set display options
+pd.set_option('display.max_columns', 100)
+pd.set_option('display.max_rows', 5)
+
 class DataValidator:
     """A comprehensive class for data validation, quality assessment and metadata generation."""
     
